@@ -54,13 +54,13 @@ export default function App() { // function
         )}
       </ul> */} 
     {/* part 10. style related */}
-    <header style={{
+    {/* <header style={{
       backgroundColor: 'green'
     }}>
       <h1>Hello Yui</h1>
       <p>You are a good person</p>
 
-    </header>
+    </header> */}
 
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -76,9 +76,7 @@ export default function App() { // function
           count is {count}
         </button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
     </>
   )
 }
